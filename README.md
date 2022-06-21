@@ -12,7 +12,7 @@ Simple Music player with web interface and GPIO input designed for Raspberry Pi.
 ## How to start
 
 1. Start mpd (if not started yet)
-2.
+2. Execute the following commands:
   ```
   mpc clear
   mpc update
