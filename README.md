@@ -4,7 +4,7 @@ Simple Music player with web interface and GPIO input designed for Raspberry Pi.
 ## Prerequisites 
 
 - RPi with GPIO buttons (without this kind of system, you still can use web player with any Unix/Linux system which supports the following software)
-- Python Tornado package installed
+- Python Tornado and mpd packages installed
 - libgpiod library (if the project is used in the system with GPIO buttons) installed
 - Change GPIO buttons IDs to yours in the gpio-player.py script
 - mpd and mpc installed + set up mpd config and all related mpd files
