@@ -8,7 +8,17 @@ Simple Music player with web interface and GPIO input designed for Raspberry Pi.
 - libgpiod library (if the project is used in the system with GPIO buttons) installed
 - Change GPIO buttons IDs to yours in the gpio-player.py script
 - mpd and mpc installed + set up mpd config and all related mpd files
-- mpd should be started before the script
+
+## How to start
+
+1. Start mpd (if not started yet)
+2.
+  ```
+  mpc clear
+  mpc update
+  mpc add /
+  ```
+3. Start web-player.py and gpio-player.py
 
 ## Functionalities 
 
